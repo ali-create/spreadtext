@@ -1,0 +1,20 @@
+:root {
+  --font: Arial, Helvetica, sans-serif;
+  --fontSize: 20px;
+  --borderRadi: 50px;
+  --backgroundcolor: aliceblue;
+}
+.main {
+  text-align: center;
+}
+.btn {
+  background-color: var(--backgroundcolor);
+  border-radius: var(--borderRadi);
+  font-size: var(--fontsize);
+}
+.text--input {
+  background-color: var(--backgroundcolor);
+  border-radius: var(--borderRadi);
+  font-size: var(--fontsize);
+  font-family: Arial, Helvetica, sans-serif;
+}
